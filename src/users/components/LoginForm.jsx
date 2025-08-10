@@ -43,7 +43,7 @@ function LoginForm() {
     <Form
       onSubmit={handleSubmit}
       onReset={handleReset}
-      title={"sign in form"}
+      title={"Login"}
       styles={{ maxWidth: "800px" }}
     >
       <TextField
