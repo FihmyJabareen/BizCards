@@ -23,7 +23,7 @@ export default function BCardFooter({
 
   return (
     <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", mt: 1 }}>
-      {/* Like + Count */}
+     
       <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
         <Tooltip title={likedByMe ? "הסר לייק" : "הוסף לייק"}>
           <IconButton
