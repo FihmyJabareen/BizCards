@@ -1,12 +1,26 @@
-# React + Vite
+# Business Cards App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application for managing and sharing business cards, built with **React** and **Material-UI (MUI)**.  
+This project allows users to register, log in, create, edit, delete, and manage their own business cards, as well as view and favorite cards from other users.
 
-Currently, two official plugins are available:
+## ✨ Features
+- **Responsive Design** — Works perfectly on mobile, tablet, and desktop with a modern hamburger menu.
+- **User Authentication** — Sign up, log in, and secure access with JWT.
+- **Role-Based Access** — Admin, Business User, and Regular User roles with specific permissions.
+- **CRUD Operations** — Create, Read, Update, and Delete your own business cards.
+- **Favorites System** — Like and save favorite cards (stored locally and on the server).
+- **Theming** — Light/Dark mode toggle with MUI’s ThemeProvider.
+- **Validation** — Joi-based form validation for better user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend:** React (Vite) + Material-UI (MUI)
+- **Routing:** React Router DOM
+- **Form Validation:** Joi
+- **HTTP Requests:** Axios
+- **State Management:** React Context API
+- **Styling:** CSS & MUI’s `sx` styling system
 
-## Expanding the ESLint configuration
+https://github.com/FihmyJabareen/BizCards.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+fihmy jabareen 
+0504014411
