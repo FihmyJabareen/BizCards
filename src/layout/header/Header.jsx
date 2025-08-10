@@ -78,7 +78,7 @@ export default function Header() {
           BizCards
         </Typography>
 
-        {/* Desktop nav */}
+        
         {isDesktop && (
           <Box sx={{ display: "flex", alignItems: "center", gap: 1, ml: 2, flexGrow: 1 }}>
             {commonLinks.map((link) => (
@@ -94,14 +94,14 @@ export default function Header() {
           </Box>
         )}
 
-        {/* Spacer on desktop */}
+       
         {isDesktop && <Box sx={{ flexGrow: 1 }} />}
 
-        {/* Right side controls (desktop) */}
+       
         {isDesktop ? (
           authButtons
         ) : (
-          // Mobile hamburger
+         
           <IconButton
             color="inherit"
             edge="end"
@@ -113,7 +113,7 @@ export default function Header() {
         )}
       </Toolbar>
 
-      {/* Mobile Drawer */}
+      
       <Drawer anchor="right" open={open} onClose={() => setOpen(false)}>
         <Box sx={{ width: 280, display: "flex", flexDirection: "column", height: "100%" }} role="presentation">
           <Box sx={{ p: 2 }}>
